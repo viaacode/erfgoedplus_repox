@@ -69,7 +69,7 @@
 
 		<eu.europeana.definitions.version>1.01</eu.europeana.definitions.version>
 		<postgresql.postgresql.version>9.1-901.jdbc4</postgresql.postgresql.version>
-		<mysql.mysql-connector-java.version>5.1.31</mysql.mysql-connector-java.version>
+		<mysql.mysql-connector-java.version>5.1.48</mysql.mysql-connector-java.version><!-- updated from 5.1.31 since the old version did not support recent tls versions -->
 		<xml-apis.xml-apis.version>1.4.01</xml-apis.xml-apis.version> <!-- Need this version or else repo-gui fails with AppEngine Error [ java.lang.NoClassDefFoundError. 
 			org/w3c/dom/ElementTraversal ] -->
 		<dom4j.dom4j.version>1.6.1</dom4j.dom4j.version>

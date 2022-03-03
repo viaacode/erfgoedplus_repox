@@ -114,3 +114,9 @@ Additionally a database schema with a username and password that can access and 
 These information must be added in the `configuration.properties` file mentioned above.  
 
 After the above software is configured the .war file, created by building the <b>repox-system</b> and located under `/repox-gui/target`, can be moved in the `webapps` directory of tomcat.
+
+###Notes###
+- - -
+Use Java version "1.8.0_121" or similar for building. Repox does not build with Java11.
+Use Apache Maven 3.8.2 or similar for building.
+For building, the Artifactory maven repo was added in the maven settings.
